@@ -51,3 +51,21 @@ During this project, I discovered that metallic objects like forks provide stron
 Clone this repo and install the requirements:
 ```bash
 pip install ultralytics
+
+from ultralytics import YOLO
+model = YOLO('weights/best.pt')
+model.predict(source='big spoon.gif', save=True, conf=0.25)
+
+🔮 Future Improvements
+Dataset Expansion: Adding more diverse kitchen tools like spatulas and whisks.
+
+Edge Deployment: Converting the best.pt model to TensorRT or ONNX for even faster performance on mobile hardware.
+
+🛠️ Technology Stack
+Language: Python 3.12
+
+Library: Ultralytics YOLOv8
+
+Hardware: NVIDIA T4 GPU via Google Colab
+
+Data Format: Roboflow YOLOv8 format
