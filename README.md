@@ -3,7 +3,7 @@
 ---
 
 ## 📌 Project Overview
-This project focuses on the development of a robust object detection system tailored for smart kitchen environments. Using the **YOLOv8 Nano** architecture, the model was trained to accurately identify and track common kitchenware—specifically **Spoons, Forks, and Knives**—even in dynamic, high-motion video sequences.
+This project focuses on the development of a robust object detection system tailored for smart kitchen environments. Using the **YOLOv8 Nano** architecture, the model was trained to accurately identify and track common kitchenware specifically **Spoons, Forks, and Knives** even in dynamic, high-motion video sequences.
 
 ---
 
